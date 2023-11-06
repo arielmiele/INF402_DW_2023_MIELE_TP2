@@ -32,23 +32,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label for="nombre">Nombre:</label>
                 <input type="text" class="form-control" name="nombre" value="<?php echo $_SESSION["nombre"]; ?>" readonly>
             </div>
-            <!-- Agregar otros campos del formulario aquí (ejemplo) -->
             <div class="form-group">
-                <label for="campo1">Campo 1:</label>
+                <label for="campo1">Email:</label>
                 <input type="text" class="form-control" name="campo1">
             </div>
             <div class="form-group">
-                <label for="campo2">Campo 2:</label>
+                <label for="campo2">DNI:</label>
                 <input type="text" class="form-control" name="campo2">
             </div>
             <div class="form-group">
-                <label for="campo3">Campo 3:</label>
+                <label for="campo3">Dirección:</label>
                 <input type="text" class="form-control" name="campo3">
             </div>
             <div class="form-group">
-                <label for="campo4">Campo 4:</label>
+                <label for="campo4">Profesión:</label>
                 <input type="text" class="form-control" name="campo4">
-            </div>
+            </div><br>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </div>

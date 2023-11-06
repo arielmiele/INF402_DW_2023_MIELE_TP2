@@ -17,7 +17,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["nombre"])) {
 
 <head>
     <title>Archivo 1</title>
-    <!-- Agregar Bootstrap CDN para el maquetado -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
@@ -25,9 +24,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["nombre"])) {
     <div class="container mt-5">
         <form method="POST" action="archivo1.php">
             <div class="form-group">
-                <label for="nombre">Introduce tu nombre:</label>
+                <label for="nombre">Introducir nombre:</label>
                 <input type="text" class="form-control" name="nombre" required>
-            </div>
+            </div><br>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </div>
